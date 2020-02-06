@@ -1,5 +1,5 @@
 // save the path of json as a var
-let path = '/home/yyu/public_html/results_CESA.json';
+let path = './results_CESA.json';
 // create a http request
 let request = new XMLHttpRequest();
 // open a new request
@@ -105,7 +105,7 @@ function coloring_function(data, atom) { // data -> array
 }
 
 function threeDmol_single_viewer_generator(receptor, data) { // data -> array
-    let receptor_path = '../receptors/' + receptor + '.pdb';
+    let receptor_path = './receptors/' + receptor + '.pdb';
 
     var viewers = $3Dmol.createViewerGrid(
         receptor, //id of div to create canvas in
