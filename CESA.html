@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://3Dmol.csb.pitt.edu/build/3Dmol-min.js""></script>
+    <meta name=" viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Visualization by Michelle</title>
+</head>
+<body>
+
+    <button id = "btn_CESA1" class = "button button1">CESA1_flupoxam</button>
+    
+    <button id = "btn_CESA2" class = "button button1">CESA3Final1_flupoxam</button>
+    <button id = "btn_CESA3" class = "button button1">CESA6Force_flupoxam</button>
+    <br>
+    <button id = "btn_CESA4" class = "button button1">CESA1_isoxaben</button>
+    <button id = "btn_CESA5" class = "button button1">CESA3Final1_isoxaben</button>
+    <button id = "btn_CESA6" class = "button button1">CESA6Force_isoxaben</button>
+
+    <br>
+    <!-- <button id = "btn_label" class = "button button_label">Label alpha C's</button> -->
+    <!-- <input type = "button" value = "Label alpha C's" class = "button button_label"
+    onclick = "addLabels(); viewer.render();"></input> -->
+    <div id="viewer1" ></div>
+    <div id="viewer2" class="mol-container"></div>
+    <div id="viewer3" class="mol-container"></div>
+    <div id="viewer4" class="mol-container"></div>
+    <div id="viewer5" class="mol-container"></div>
+    <div id="viewer6" class="mol-container"></div>
+    <div id="viewers" class="mol-container"></div>
+
+    <!-- <script>
+        var viewer = null;
+	    var labels = [];
+
+	    var addLabels = function() {
+		    var atoms = viewer.getModel().selectedAtoms({
+			    atom : "CA"
+		    });
+		    for ( var a in atoms) {
+			    var atom = atoms[a];
+
+			    var l = viewer.addLabel(atom.resn + " " + atom.resi, {
+				    inFront : true,
+				    fontSize : 12,
+				    position : {
+				    	x : atom.x,
+				    	y : atom.y,
+				    	z : atom.z
+				    }
+			    });
+		    	atom.label = l;
+		    	labels.push(atom);
+	    	}
+	    };
+    </script> -->
+
+    <script src="index.js"></script> 
+
+    </body>
+
+</html>
