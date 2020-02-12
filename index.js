@@ -169,7 +169,7 @@ function threeDmol_single_viewer_generator(receptor, data) { // data -> array
 
     // //$('#viewers').append("<span><div id='" + receptor + "'class='mol-container'></div></span>");
     // let viewer = $3Dmol.createViewer(receptor);
-    let receptor_path = '../receptors/' + receptor + '.pdb';
+    let receptor_path = './receptors/' + receptor + '.pdb';
     // jQuery.ajax(receptor_path, {
     //     success: function (data, pdb) {
     //         let v = viewer;
