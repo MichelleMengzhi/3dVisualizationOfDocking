@@ -26,10 +26,10 @@ The left viewer shows the surface colored in heat map of the receptor.
 
 The right viewer shows the receptor in ball and stick.
 
-User can drag to see the 3D structure.
+User can drag to see the 3D structure, and click on any atom to see its label.
 
 Note that buttons with the same receptor name will overwrite the viewer window.
 <br> For example, if you click __CESA1_isoxaben__ after clicking __CESA1_flupoxam__, then the viewer with the visualization of __CESA1_flupoxam__ will be reloaded to __CESA1_isoxaben__.
 
-To be updated:
-<br>Add function to make the viewer can show atom after clicking or hovering the mouse on it.
+Updated:
+<br>Add function to make the viewer can show atom after clicking or hovering the mouse on it. But the function is not completely work right now, which may due to the big size of the receptor, sometimes may click without label response or incorrect label.
