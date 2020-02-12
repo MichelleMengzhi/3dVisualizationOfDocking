@@ -22,7 +22,7 @@ scp ./public_html <your ip>
 
 The left viewer shows the surface colored in heat map of the receptor.
 <br> The color from red to orange to yellow represents the highest to the lowest contact frequency of the ligand to the receptor
-![CESA1_flu quickview](web1.png)
+![CESA1_flu quickview](web2.png)
 
 The right viewer shows the receptor in ball and stick.
 
