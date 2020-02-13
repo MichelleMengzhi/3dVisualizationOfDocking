@@ -7,12 +7,7 @@ If you clone it from github
  ``` 
 git clone https://github.com/MichelleMengzhi/public_html_BCB430.git
  ``` 
- Or if you are viewing on the BAR, you should navigate to /home/yyu directory and 
- ``` 
-scp ./public_html <your ip>
- ``` 
-
-
+ 
 2. Copy CESA.html path to your browser
 
 3. Each receptor_pair docking visualization result can be activated by respective button
@@ -33,3 +28,6 @@ Note that buttons with the same receptor name will overwrite the viewer window.
 
 Updated:
 <br>Add function to make the viewer can show atom after clicking or hovering the mouse on it. But the function is not completely work right now, which may due to the big size of the receptor, sometimes may click without label response or incorrect label.
+
+To be updated: 
+<br>Amino acid label
